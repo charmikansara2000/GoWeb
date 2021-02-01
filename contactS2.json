@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "contactDets":{
+            "email": "abc@gmail.com",
+            "phone": "123455778"
+        }
+        
+    },
+    {
+        "id": 2,
+        "contactDets":{
+            "email": "xyz@gmail.com",
+            "phone": "123455778"
+        }
+    }
+]
