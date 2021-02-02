@@ -1,0 +1,557 @@
+{
+"code": 200,
+"meta": {
+"pagination": {
+"total": 122,
+"pages": 7,
+"page": 1,
+"limit": 20
+}
+},
+"data": [
+{
+"id": 1,
+"name": "Small Iron Gloves",
+"description": "Supellex sodalitas socius molestiae arbustum unde facere candidus cunae odio censura vado tres aliqua voluptas deputo tristis somnus studio sint summopere tot cervus cubo cerno solum tondeo amplitudo non alias eos sollers vetus sortitus bestia una derelinquo defleo adfero careo testimonium appello tepidus surculus.",
+"image": "https://loremflickr.com/250/250",
+"price": "15112.08",
+"discount_amount": "11516.69",
+"status": true,
+"categories": [
+{
+"id": 13,
+"name": "Grocery \u0026 Garden"
+},
+{
+"id": 16,
+"name": "Tools"
+},
+{
+"id": 17,
+"name": "Automotive"
+},
+{
+"id": 15,
+"name": "Baby \u0026 Automotive"
+},
+{
+"id": 3,
+"name": "Beauty, Music \u0026 Games"
+},
+{
+"id": 4,
+"name": "Baby \u0026 Games"
+}
+]
+},
+{
+"id": 2,
+"name": "Aerodynamic Rubber Pants",
+"description": "Provident velit cras crastinus cuppedia aggero sufficio reprehenderit certo angustus tum tui delicate corona utor certe neque ultio cumque qui trado cognomen corroboro defero teres sperno alo conscendo ex tersus sustineo cupiditas audentia acsi desidero ventus animi est sumo arcesso speculum optio.",
+"image": "https://loremflickr.com/250/250",
+"price": "20449.75",
+"discount_amount": "10929.84",
+"status": true,
+"categories": [
+{
+"id": 7,
+"name": "Movies"
+},
+{
+"id": 9,
+"name": "Shoes, Books \u0026 Electronics"
+},
+{
+"id": 12,
+"name": "Electronics"
+},
+{
+"id": 5,
+"name": "Movies \u0026 Industrial"
+}
+]
+},
+{
+"id": 3,
+"name": "Sleek Copper Hat",
+"description": "Verus non socius tempore distinctio adopto bellum teneo concido demonstro vitiosus autem molestiae quas ager consequatur vulnus thorax clam ullam claustrum fuga sortitus defaeco attollo chirographum universe repellendus quo ulciscor alius absconditus thesaurus truculenter vinculum suasoria defessus.",
+"image": "https://loremflickr.com/250/250",
+"price": "33253.0",
+"discount_amount": "7863.91",
+"status": true,
+"categories": [
+{
+"id": 14,
+"name": "Jewelry, Beauty \u0026 Baby"
+},
+{
+"id": 10,
+"name": "Music, Electronics \u0026 Home"
+},
+{
+"id": 8,
+"name": "Outdoors \u0026 Tools"
+}
+]
+},
+{
+"id": 4,
+"name": "Fantastic Concrete Bottle",
+"description": "Toties cui tertius sursum adimpleo cur uredo voro cuius textus cubo tempore corona volo coerceo clibanus corrupti impedit defleo amor tenus ver ubi torrens viscus aequus sollers depono cilicium alienus alioqui vomito aedificium claro cenaculum neque audax absconditus cornu ex asporto arcus ter accendo cibo caelum tenuis.",
+"image": "https://loremflickr.com/250/250",
+"price": "2603.86",
+"discount_amount": "68.02",
+"status": true,
+"categories": [
+{
+"id": 5,
+"name": "Movies \u0026 Industrial"
+},
+{
+"id": 2,
+"name": "Books"
+},
+{
+"id": 12,
+"name": "Electronics"
+},
+{
+"id": 11,
+"name": "Shoes"
+}
+]
+},
+{
+"id": 5,
+"name": "Awesome Concrete Knife",
+"description": "Cruentus denuncio trucido nulla depopulo bestia coaegresco valeo culpa turpe minus sordeo turbo desidero spargo ea asporto charisma spiculum coruscus bos caries textilis rerum decimus viridis quaerat quia uberrime adfero supellex tabula rem cursus crustulum animi pecunia vero allatus cavus adimpleo stultus depono incidunt tepidus contigo terra molestias adinventitias ocer sit speciosus tergum territo paens atavus aestas antepono deinde aut.",
+"image": "https://loremflickr.com/250/250",
+"price": "35825.37",
+"discount_amount": "4688.97",
+"status": true,
+"categories": [
+{
+"id": 17,
+"name": "Automotive"
+},
+{
+"id": 6,
+"name": "Grocery, Beauty \u0026 Home"
+},
+{
+"id": 16,
+"name": "Tools"
+},
+{
+"id": 10,
+"name": "Music, Electronics \u0026 Home"
+},
+{
+"id": 4,
+"name": "Baby \u0026 Games"
+}
+]
+},
+{
+"id": 6,
+"name": "Lightweight Linen Pants",
+"description": "Aperio dolores cedo vacuus et arbitro tenus aperte bellum consequatur acer corona illum tredecim creptio aetas subvenio libero cognomen delicate traho suggero comitatus vulticulus cavus cattus recusandae celer stella pecunia amoveo auctus basium voluptas deprimo cado volaticus demitto ab verecundia color sit accipio caute utrum.",
+"image": "https://loremflickr.com/250/250",
+"price": "42290.45",
+"discount_amount": "18889.61",
+"status": true,
+"categories": [
+{
+"id": 1,
+"name": "Electronics \u0026 Computers"
+},
+{
+"id": 3,
+"name": "Beauty, Music \u0026 Games"
+},
+{
+"id": 6,
+"name": "Grocery, Beauty \u0026 Home"
+},
+{
+"id": 11,
+"name": "Shoes"
+},
+{
+"id": 10,
+"name": "Music, Electronics \u0026 Home"
+}
+]
+},
+{
+"id": 7,
+"name": "Awesome Linen Pants",
+"description": "Ars demonstro tonsor quos somniculosus surgo nostrum vero ara non cilicium expedita sustineo candidus laboriosam saepe ab crastinus ipsam eius tersus vociferor vel absque vulticulus valeo adamo xiphias tergo arcesso valetudo cupiditas nulla conturbo coaegresco cura id thalassinus aperte ante illum quae avarus suffoco ad acceptus subnecto pauper totam cribro deorsum illo video teneo ratione curso quasi adulatio doloribus ea armarium statim voluptas peccatus deludo super debitis amaritudo.",
+"image": "https://loremflickr.com/250/250",
+"price": "38306.17",
+"discount_amount": "8129.08",
+"status": true,
+"categories": [
+{
+"id": 17,
+"name": "Automotive"
+},
+{
+"id": 14,
+"name": "Jewelry, Beauty \u0026 Baby"
+},
+{
+"id": 9,
+"name": "Shoes, Books \u0026 Electronics"
+}
+]
+},
+{
+"id": 8,
+"name": "Lightweight Concrete Watch",
+"description": "Et dolores at astrum quos patrocinor ter varius utor clamo alias vobis tumultus tergeo defluo depopulo cetera viridis abundans xiphias aer adsum reprehenderit atque subito accusamus uter supellex odit sit communis delicate addo calculus cotidie turpe concedo vis vulgus temptatio excepturi vespillo una.",
+"image": "https://loremflickr.com/250/250",
+"price": "10293.05",
+"discount_amount": "8382.24",
+"status": true,
+"categories": [
+{
+"id": 1,
+"name": "Electronics \u0026 Computers"
+},
+{
+"id": 11,
+"name": "Shoes"
+}
+]
+},
+{
+"id": 9,
+"name": "Synergistic Rubber Watch",
+"description": "Ut ustilo cerno tibi tergum aut expedita deripio contego antea sunt spectaculum vilis capitulus turpe abundans carmen vereor provident adicio quam arcesso vulpes calcar non volva clibanus cervus depono adimpleo adficio ulciscor aequus uxor ut distinctio admoneo annus.",
+"image": "https://loremflickr.com/250/250",
+"price": "2956.74",
+"discount_amount": "1763.45",
+"status": true,
+"categories": [
+{
+"id": 9,
+"name": "Shoes, Books \u0026 Electronics"
+},
+{
+"id": 8,
+"name": "Outdoors \u0026 Tools"
+},
+{
+"id": 14,
+"name": "Jewelry, Beauty \u0026 Baby"
+},
+{
+"id": 13,
+"name": "Grocery \u0026 Garden"
+},
+{
+"id": 17,
+"name": "Automotive"
+},
+{
+"id": 6,
+"name": "Grocery, Beauty \u0026 Home"
+}
+]
+},
+{
+"id": 10,
+"name": "Fantastic Cotton Coat",
+"description": "Totus strues aestivus tamdiu pecus amitto ipsam pecco animi tres substantia thesaurus confido accedo cauda strenuus consequatur deporto basium conitor aperio velut nemo canonicus contigo ubi alias doloremque exercitationem audax decerno non volubilis tantillus tempus unde arcesso velit pectus subito venustas cresco dignissimos pel apto demonstro validus audentia speculum cura ea ulciscor tui uberrime crudelis coma summopere clamo tergiversatio subiungo talus officia deleniti vinitor.",
+"image": "https://loremflickr.com/250/250",
+"price": "24821.44",
+"discount_amount": "3608.54",
+"status": true,
+"categories": [
+{
+"id": 6,
+"name": "Grocery, Beauty \u0026 Home"
+},
+{
+"id": 12,
+"name": "Electronics"
+},
+{
+"id": 9,
+"name": "Shoes, Books \u0026 Electronics"
+},
+{
+"id": 1,
+"name": "Electronics \u0026 Computers"
+},
+{
+"id": 10,
+"name": "Music, Electronics \u0026 Home"
+},
+{
+"id": 7,
+"name": "Movies"
+}
+]
+},
+{
+"id": 11,
+"name": "Durable Linen Bench",
+"description": "Thesaurus sui aranea ut ciminatio infit votum alienus undique audacia tergo adsuesco amissio centum beatus comburo vapulus repellat stultus temptatio caterva tres voluptatibus velut vomer thema turbo vulnus aspicio aegrotatio unde bellum modi statua stillicidium bardus correptius universe villa clarus triginta aut nobis sollicito angulus earum verto colo minus tam tollo victoria temperantia causa curvus cavus pecus credo laudantium crur acies depereo.",
+"image": "https://loremflickr.com/250/250",
+"price": "14783.12",
+"discount_amount": "6211.92",
+"status": true,
+"categories": [
+{
+"id": 12,
+"name": "Electronics"
+},
+{
+"id": 9,
+"name": "Shoes, Books \u0026 Electronics"
+},
+{
+"id": 8,
+"name": "Outdoors \u0026 Tools"
+}
+]
+},
+{
+"id": 12,
+"name": "Awesome Leather Chair",
+"description": "Odio timor quam vilicus tergo soleo vapulus assumenda beatae exercitationem vaco tergiversatio somniculosus ulterius iure tondeo creator bis sto voluptatem custodia creta articulus aer acerbitas dedico tabesco decet quo amissio tenus delicate appello atavus arcus concido demum spectaculum cernuus cohibeo degero sint celo subseco nisi quia terga vomito uterque.",
+"image": "https://loremflickr.com/250/250",
+"price": "29026.08",
+"discount_amount": "4076.49",
+"status": true,
+"categories": [
+{
+"id": 16,
+"name": "Tools"
+}
+]
+},
+{
+"id": 13,
+"name": "Synergistic Cotton Lamp",
+"description": "Vere trepide est delicate rerum deserunt demens cariosus sum uredo ciminatio vulgivagus ceno quod solum utor molestiae vinco cibo curo timor voluptatibus clamo asperiores et crustulum tabgo solitudo vos videlicet veritas contigo blanditiis celo tyrannus soleo velit complectus decretum.",
+"image": "https://loremflickr.com/250/250",
+"price": "32248.05",
+"discount_amount": "1882.51",
+"status": true,
+"categories": [
+{
+"id": 14,
+"name": "Jewelry, Beauty \u0026 Baby"
+},
+{
+"id": 13,
+"name": "Grocery \u0026 Garden"
+},
+{
+"id": 7,
+"name": "Movies"
+},
+{
+"id": 5,
+"name": "Movies \u0026 Industrial"
+},
+{
+"id": 4,
+"name": "Baby \u0026 Games"
+},
+{
+"id": 6,
+"name": "Grocery, Beauty \u0026 Home"
+}
+]
+},
+{
+"id": 14,
+"name": "Awesome Bronze Plate",
+"description": "Vilitas contabesco vestigium audax vulnus inventore attero magni quia antea administratio statua terminatio ancilla dens vomer crur et defetiscor qui carbo auctus dedecor cuppedia totam adflicto succedo explicabo tamquam ipsum damno valeo tremo aequitas coma benigne dolor caries canto esse peior vito abduco ut eius aufero quae catena maxime perspiciatis titulus aer pecto abutor quo surculus aut ceno non tandem adinventitias teneo eos strues timor acerbitas adnuo venia consuasor dolores et.",
+"image": "https://loremflickr.com/250/250",
+"price": "19581.12",
+"discount_amount": "1677.57",
+"status": true,
+"categories": [
+{
+"id": 12,
+"name": "Electronics"
+},
+{
+"id": 8,
+"name": "Outdoors \u0026 Tools"
+},
+{
+"id": 5,
+"name": "Movies \u0026 Industrial"
+},
+{
+"id": 16,
+"name": "Tools"
+},
+{
+"id": 14,
+"name": "Jewelry, Beauty \u0026 Baby"
+},
+{
+"id": 11,
+"name": "Shoes"
+}
+]
+},
+{
+"id": 15,
+"name": "Small Marble Chair",
+"description": "Vulnero arto peior corrupti inventore cohibeo cruentus necessitatibus illum infit alii cibus et contabesco admitto tutamen victus sordeo vesica aureus vel caecus claudeo iusto peccatus comitatus accusator qui qui tracto temporibus correptius ad ancilla aer bardus aedificium depraedor patruus atqui ante vorax defero asper temeritas possimus ullus cicuta vindico demens paulatim.",
+"image": "https://loremflickr.com/250/250",
+"price": "16188.66",
+"discount_amount": "9817.12",
+"status": true,
+"categories": [
+{
+"id": 10,
+"name": "Music, Electronics \u0026 Home"
+},
+{
+"id": 12,
+"name": "Electronics"
+},
+{
+"id": 11,
+"name": "Shoes"
+}
+]
+},
+{
+"id": 16,
+"name": "Gorgeous Concrete Knife",
+"description": "Taedium deripio rem celo venustas aut antepono vinum circumvenio aliquid eius vesper aestus spes dens volup voro denuo crapula temptatio corrumpo vel cervus ab crastinus administratio textus ea vorax esse temperantia timidus.",
+"image": "https://loremflickr.com/250/250",
+"price": "13813.23",
+"discount_amount": "12720.48",
+"status": true,
+"categories": [
+{
+"id": 7,
+"name": "Movies"
+},
+{
+"id": 15,
+"name": "Baby \u0026 Automotive"
+}
+]
+},
+{
+"id": 17,
+"name": "Sleek Marble Bottle",
+"description": "Trepide allatus derelinquo thymbra ademptio iusto vir stella subvenio iste suadeo amo utrimque conitor spes et et coadunatio cogo colo omnis uredo harum terra una quam talus cotidie cibo ullus traho solvo conturbo voluntarius volaticus sulum excepturi.",
+"image": "https://loremflickr.com/250/250",
+"price": "44264.78",
+"discount_amount": "4380.47",
+"status": true,
+"categories": [
+{
+"id": 16,
+"name": "Tools"
+},
+{
+"id": 14,
+"name": "Jewelry, Beauty \u0026 Baby"
+},
+{
+"id": 11,
+"name": "Shoes"
+},
+{
+"id": 4,
+"name": "Baby \u0026 Games"
+},
+{
+"id": 12,
+"name": "Electronics"
+}
+]
+},
+{
+"id": 18,
+"name": "Enormous Copper Plate",
+"description": "Thymum et adipiscor aduro ulterius acsi damnatio expedita comis color audacia antiquus cuius arca vere laudantium qui sto nesciunt confugo patria ait hic vito aliquam illum cimentarius ater temporibus dedico tempora centum adeo dolore commodo turba addo decerno solutio.",
+"image": "https://loremflickr.com/250/250",
+"price": "41853.76",
+"discount_amount": "20214.5",
+"status": true,
+"categories": [
+{
+"id": 7,
+"name": "Movies"
+}
+]
+},
+{
+"id": 19,
+"name": "Fantastic Silk Gloves",
+"description": "Curo amaritudo excepturi id dolores timor vulnus varius tondeo adficio animus solutio aduro terga truculenter accusator verecundia accedo somniculosus vito neque vobis apto custodia amissio aureus triginta teres molestiae capio cavus certo curso considero vergo.",
+"image": "https://loremflickr.com/250/250",
+"price": "38979.55",
+"discount_amount": "3.76",
+"status": true,
+"categories": [
+{
+"id": 7,
+"name": "Movies"
+},
+{
+"id": 2,
+"name": "Books"
+},
+{
+"id": 6,
+"name": "Grocery, Beauty \u0026 Home"
+},
+{
+"id": 10,
+"name": "Music, Electronics \u0026 Home"
+}
+]
+},
+{
+"id": 20,
+"name": "Practical Marble Hat",
+"description": "Cupressus calamitas universe ubi thymum callide cura infit eligendi trucido audio cursim ipsum ara cribro adiuvo communis vestigium adsum curia depraedor angelus depono colligo patria suscipio advenio et absque sequi ancilla dolorem itaque corporis.",
+"image": "https://loremflickr.com/250/250",
+"price": "40665.57",
+"discount_amount": "1280.71",
+"status": true,
+"categories": [
+{
+"id": 5,
+"name": "Movies \u0026 Industrial"
+},
+{
+"id": 15,
+"name": "Baby \u0026 Automotive"
+},
+{
+"id": 13,
+"name": "Grocery \u0026 Garden"
+},
+{
+"id": 17,
+"name": "Automotive"
+},
+{
+"id": 11,
+"name": "Shoes"
+},
+{
+"id": 8,
+"name": "Outdoors \u0026 Tools"
+}
+]
+}
+]
+}
