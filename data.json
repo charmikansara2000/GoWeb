@@ -1,0 +1,41 @@
+{
+"location": {
+"name": "London",
+"region": "City of London, Greater London",
+"country": "United Kingdom",
+"lat": 51.52,
+"lon": -0.11,
+"tz_id": "Europe/London",
+"localtime_epoch": 1612424663,
+"localtime": "2021-02-04 7:44"
+},
+"current": {
+"last_updated_epoch": 1612423809,
+"last_updated": "2021-02-04 07:30",
+"temp_c": 6,
+"temp_f": 42.8,
+"is_day": 1,
+"condition": {
+"text": "Sunny",
+"icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+"code": 1000
+},
+"wind_mph": 0,
+"wind_kph": 0,
+"wind_degree": 202,
+"wind_dir": "SSW",
+"pressure_mb": 1010,
+"pressure_in": 30.3,
+"precip_mm": 0,
+"precip_in": 0,
+"humidity": 93,
+"cloud": 0,
+"feelslike_c": 4.4,
+"feelslike_f": 40,
+"vis_km": 10,
+"vis_miles": 6,
+"uv": 1,
+"gust_mph": 7.8,
+"gust_kph": 12.6
+}
+}

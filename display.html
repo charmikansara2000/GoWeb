@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+   
+    <style>
+        table {
+            width: 250px;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 100px;
+        }
+        form { 
+            margin: 0 auto; 
+            width:250px;
+        }
+    </style>
+    <title>
+        Data Display
+    </title>
+</head>
+
+<body>
+    
+    
+    <table >
+        <thead >
+            <tr class="table">
+                <th>Name</th>
+                <th>Country</th>
+                <th>Temprature (Celsius)</th>
+                <th>Humidity</th>
+                <th>Wind (kph)</th>
+                <th>Wind Degree</th>
+                <th>Localtime</th>
+               <!--  <th>Condition</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <td> {{.Location.Name}}</td>
+                <td> {{.Location.Country}}</td>
+                <td> {{.Current.TempC}}</td>
+                <td> {{.Current.Humidity}}</td>
+                <td>{{.Current.WindKph}}</td>
+                <td>{{.Current.WindDegree}}</td>
+                <td>{{.Location.Localtime}}</td>
+                <!-- <td><img src="{{.Current.Condition.Icon}}" /></td>  -->
+            </tr>
+        </tbody>
+    </table>
+   
+</body>
+</html>
