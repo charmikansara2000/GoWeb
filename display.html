@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>DOB</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    {{range .}}
+                    <tr>
+                        <td>{{.ID}}</td>
+                        <td>{{.FirstName}}</td>
+                        <td>{{.LastName}}</td>
+                        <td>{{.DOB}}</td>
+                        <td>{{.Email}}</td>
+                        <td>{{.Phone}}</td>
+                        
+                        <td>&nbsp;&nbsp;<a href="/edit?id={{.ID}}">Edit</a>&nbsp;&nbsp;<a href="/delete?id={{.ID}}">Delete</a> </td>
+                    </tr>
+                    {{end}}
+                </tbody>
+            </table>
+            <a href="/">Back</a> 
+        </div>
+    </body>
+</html>
