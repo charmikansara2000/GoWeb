@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Trains</h1>
+        <br>
+        <table id="trains" class="table shadow-lg" border="1"></table>
+    
+    </div>
+        <script>
+            $(document).ready(function () {
+
+             
+                      fetch("http://localhost:8080/Trains")
+
+                    // Converting received data to JSON 
+                    .then(response => response.json())
+                    .then(json => {
+
+                        // Create a variable to store HTML 
+                        let li = `<thead class="thead-dark"><tr>
+                            <th>TrainNO</th>
+                            <th>NAME</th>
+                            <th>SEQ</th>
+                            <th>Code</th>
+                            <th>StName</th>
+                            <th>Atime</th>
+                            <th>Dtime</th>
+                            <th>Distance</th>
+                            <th>SS</th>
+                            <th>SsName</th>
+                            <th>Ds</th>
+                            <th>Dsname</th>
+                            </tr>  </thead> <tbody>`;
+
+                        // Loop through each data and add a table row 
+                        json.forEach(train => {
+                            li += `<tr> 
+                <td>${train.TrainNo} </td> 
+                <td>${train.TrainName}</td>          
+                 <td>${train.SEQ}</td>         
+                  <td>${train.Code}</td>
+                  <td>${train.StName}</td>
+                  <td>${train.ATime}</td>
+                  <td>${train.DTime}</td>
+                  <td>${train.Distance}</td>
+                  <td>${train.SS}</td>
+                  <td>${train.SSname}</td>
+                  <td>${train.Ds}</td>
+                  <td>${train.DsName}</td>
+
+            </tr>`;
+                        });
+
+                        // Display result 
+                        li+=" </tbody>"
+                        document.getElementById("trains").innerHTML = li;
+                    }); 
+                    
+            
+            });
+        </script>
+</body>
+</html>
