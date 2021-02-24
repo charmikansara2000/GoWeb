@@ -9,66 +9,119 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
     <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <style>
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+    }
+
+    .pagination a.active {
+      background-color: dodgerblue;
+      color: white;
+    }
+
+    .pagination a:hover:not(.active) {background-color: #ddd;}
+    </style>
 
 </head>
 <body>
+    <div class="pagination">
+      <a href="">&laquo;</a>
+      <a href="#">1</a>
+      <a class="active" href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+    </div>
     <div class="container">
         <h1 style="text-align: center;">Trains</h1>
         <br>
-        <table id="trains" class="table shadow-lg" border="1"></table>
-    
+        <table id="trains" class="table shadow-lg" border="1">
+          <thead>
+            <tr>
+              <td>TrainNo</td>
+              <td>TrainName</td>
+              <td>SEQ</td>
+              <td>Code</td>
+              <td>StName</td>
+              <td>ATime</td>
+              <td>DTime</td>
+              <td>Distance</td>
+              <td>SS</td>
+              <td>SSname</td>
+              <td>Ds</td>
+              <td>DsName</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+
+            </tr>
+          </tbody>
+        </table>
+
     </div>
         <script>
-            $(document).ready(function () {
+        fetch('http://localhost:8080/Trains')
+    .then(response=>response.json())
+    .then(data=>{
 
-             
-                      fetch("http://localhost:8080/Trains")
+            window.dataset=[];
 
-                    // Converting received data to JSON 
-                    .then(response => response.json())
-                    .then(json => {
-
-                        // Create a variable to store HTML 
-                        let li = `<thead class="thead-dark"><tr>
-                            <th>TrainNO</th>
-                            <th>NAME</th>
-                            <th>SEQ</th>
-                            <th>Code</th>
-                            <th>StName</th>
-                            <th>Atime</th>
-                            <th>Dtime</th>
-                            <th>Distance</th>
-                            <th>SS</th>
-                            <th>SsName</th>
-                            <th>Ds</th>
-                            <th>Dsname</th>
-                            </tr>  </thead> <tbody>`;
-
-                        // Loop through each data and add a table row 
-                        json.forEach(train => {
-                            li += `<tr> 
-                <td>${train.TrainNo} </td> 
-                <td>${train.TrainName}</td>          
-                 <td>${train.SEQ}</td>         
-                  <td>${train.Code}</td>
-                  <td>${train.StName}</td>
-                  <td>${train.ATime}</td>
-                  <td>${train.DTime}</td>
-                  <td>${train.Distance}</td>
-                  <td>${train.SS}</td>
-                  <td>${train.SSname}</td>
-                  <td>${train.Ds}</td>
-                  <td>${train.DsName}</td>
-
-            </tr>`;
-                        });
-
-                        // Display result 
-                        li+=" </tbody>"
-                        document.getElementById("trains").innerHTML = li;
-                    }); 
-                    
-            
+            for(var i=0;i<data.length;i++)
+            {
+                window.dataArr=[];
+                dataArr.push(data[i]['TrainNo']);
+                dataArr.push(data[i]['TrainName']);
+                dataArr.push(data[i]['SEQ']);
+                dataArr.push(data[i]['Code']);
+                dataArr.push(data[i]['StName']);
+                dataArr.push(data[i]['ATime']);
+                dataArr.push(data[i]['DTime']);
+                dataArr.push(data[i]['Distance']);
+                dataArr.push(data[i]['SS']);
+                dataArr.push(data[i]['SSname']);
+                dataArr.push(data[i]['Ds']);
+                dataArr.push(data[i]['DsName']);
+                dataset.push(dataArr);
+            }
+            console.log(dataset)
+            $('#trains').DataTable( {
+                data: dataset,
+            } );
+            // $(document).ready(function () {
+            //                   fetch("http://localhost:8080/Trains")
+            //         // Converting received data to JSON
+            //         .then(response => response.json())
+            //         .then(json => {
+            //             // Create a variable to store HTML
+            //             let li = `<thead class="thead-dark"><tr><th>NO</th><th>NAME</th><th>SEQ</th><th>Code</th><th>StName</th><th>Arrival</th><th>Departure</th><th>Dist</th><th>SS</th><th>SSName</th><th>DS</th><th>DSName</th></tr>  </thead> <tbody>`;
+            //             // Loop through each data and add a table row
+            //             json.forEach(train => {
+            //                 li += `<tr>
+            //                     <td>${train.TrainNo} </td>
+            //                     <td>${train.TrainName}</td>
+            //                     <td>${train.SEQ}</td>
+            //                     <td>${train.Code}</td>
+            //                     <td>${train.StName}</td>
+            //                     <td>${train.ATime}</td>
+            //                     <td>${train.DTime}</td>
+            //                     <td>${train.Distance}</td>
+            //                     <td>${train.SS}</td>
+            //                     <td>${train.SSname}</td>
+            //                     <td>${train.Ds}</td>
+            //                     <td>${train.DsName}</td>
+            //                   </tr>`;
+            //             });
+            //             // Display result
+            //             li+=" </tbody>"
+            //             document.getElementById("trains").innerHTML = li;
+            //         });
             });
         </script>
 </body>
